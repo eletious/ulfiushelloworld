@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
-				echo 'Building'
+				echo 'Building - test jenkins'
 				sh 'cc -o test helloworldulfius.c'
 			}
 		}
