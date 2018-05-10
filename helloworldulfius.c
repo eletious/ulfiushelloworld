@@ -11,7 +11,7 @@
 //callback function for the web application on /helloworld url call
 
 int callback_hello_world (const struct _u_request * request, struct _u_response * response, void * user_data) {
-	ulfius_set_string_body_response(response, 200, "Hello World!");
+	ulfius_set_string_body_response(response, 200, "Hello World! This is a repo update to test Jenkins!");
 	return U_CALLBACK_CONTINUE;
 }
 
