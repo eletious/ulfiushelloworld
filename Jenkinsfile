@@ -7,5 +7,5 @@ pipeline {
 				sh 'cc -o test helloworldulfius.c'
 			}
 		}
-	{
-{
+	}
+}
