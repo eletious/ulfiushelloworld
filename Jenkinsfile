@@ -4,7 +4,7 @@ pipeline {
 	stage('build') {
 	  steps {
 		echo 'Building - test jenkins'
-		sh 'cc -o test helloworldulfius.c'
+		sh 'cc -o test helloworldulfius.c /usr/lib/libulfius.so'
       }
     }
   }
